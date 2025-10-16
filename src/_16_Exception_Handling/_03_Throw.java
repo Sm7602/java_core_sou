@@ -44,8 +44,11 @@ public class _03_Throw {
 		
 		System.out.println("withdrawl   : ");
 		double reqamm=sc.nextDouble();
-		
+		try {
 		withdraw(reqamm);
+		}catch(Exception e) {
+			
+		}
 		sc.close();
 		
 	}
